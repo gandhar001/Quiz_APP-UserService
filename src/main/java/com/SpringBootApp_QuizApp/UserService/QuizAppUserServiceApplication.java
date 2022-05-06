@@ -9,9 +9,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-@EntityScan(basePackages = "com.SpringBootApp_QuizApp.Quiz_APP_DataStore.Entities")
+@EntityScan(basePackages = "com.SpringBootApp_QuizApp.Quiz_AppDataStore.Entities")
 
-@EnableJpaRepositories(basePackages = "com.SpringBootApp_QuizApp.Quiz_APP_DataStore.Repositories")
+@EnableJpaRepositories(basePackages = "com.SpringBootApp_QuizApp.Quiz_AppDataStore.Repositories")
 public class QuizAppUserServiceApplication {
 
 	public static void main(String[] args) {
